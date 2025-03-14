@@ -2,7 +2,7 @@
   "name": "pixel-grid",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://USERNAME.github.io/REPOSITORY",
+  "homepage": "https://milenaLtz.github.io/PIX_GOAL",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
