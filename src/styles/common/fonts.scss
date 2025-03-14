@@ -1,0 +1,10 @@
+@include font-face("Nunito", 400, normal, url("../../shared/fonts/Nunito/Nunito-Regular.ttf") format("woff2"));
+@include font-face("Jura", 400, normal, url("../../shared/fonts/Jura/Jura-Regular.ttf") format("woff2"));
+
+@include font-face("Nunito", 500, normal, url("../../shared/fonts/Nunito/Nunito-Medium.ttf") format("woff2"));
+@include font-face("Jura", 500, normal, url("../../shared/fonts/Jura/Jura-Medium.ttf") format("woff2"));
+
+@include font-face("Nunito", 300, normal, url("../../shared/fonts/Nunito/Nunito-Light.ttf") format("woff2"));
+@include font-face("Jura", 300, normal, url("../../shared/fonts/Jura/Jura-Light.ttf") format("woff2"));
+
+@include font-face("Jura", 600, normal, url("../../shared/fonts/Jura/Jura-SemiBold.ttf") format("woff2"));

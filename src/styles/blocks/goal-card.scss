@@ -1,0 +1,60 @@
+.goal-card {
+  position: relative;
+  padding: 60px 15px 15px 20px;
+}
+
+.goal-card__image {
+  position: absolute;
+  top: -30px;
+  right: 15px;
+  height: 80px;
+  width: 80px;
+}
+
+.goal-card__content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.goal-card__link {
+  font-size: 12px;
+  line-height: 12px;
+  color: #484455;
+  text-decoration: none;
+}
+
+.goal-card__link h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.goal-card__progress {
+  margin: 0;
+  font-size: 8px;
+  line-height: 8px;
+  color: #656079;
+}
+
+.goal-card__button--delete {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+.goal-card__button--delete::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../shared/icons/bin.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+  content: "";
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.task-info {
+  padding: 20px 30px;
+}
+
+.task-info__list {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.task-info__item:nth-child(2n) {
+  text-align: right;
+}
+
+.task-info__topic {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #484455;
+  opacity: 0.5;
+}
+
+.task-info__description {
+  margin: 0;
+  font-size: 15px;
+  line-height: 17px;
+  color: #484455;
+}

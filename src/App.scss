@@ -1,0 +1,27 @@
+@import "./styles/common/mixins.scss";
+@import "./styles/common/fonts.scss";
+@import "./styles/common/variables.scss";
+@import "./styles/common/global.scss";
+
+
+
+@import "./styles/blocks/page.scss";
+@import "./styles/blocks/button.scss";
+@import "./styles//blocks/grid-container.scss";
+@import "./styles/blocks/pixel-modal.scss";
+@import "./styles/blocks/header.scss";
+@import "./styles/blocks/introduction.scss";
+@import "./styles/blocks/main-page.scss";
+@import "./styles/blocks/block.scss";
+@import "./styles/blocks/user-block.scss";
+@import "./styles/blocks/goals-block.scss";
+@import "./styles/blocks/card.scss";
+@import "./styles/blocks/goal-card.scss";
+@import "./styles/blocks/tasks-block.scss";
+@import "./styles/blocks/task.scss";
+@import "./styles/blocks/task-info.scss";
+@import "./styles/blocks/pixel-info.scss";
+@import "./styles/blocks/page-footer.scss";
+@import "./styles/blocks/pixi-canvas.scss";
+
+@import "./widgets/modals/all";

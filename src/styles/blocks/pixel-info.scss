@@ -1,0 +1,48 @@
+.pixel-info__wrapper {
+  padding: 30px 45px 10px;
+}
+
+.pixel-info__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  opacity: 0.5;
+}
+
+.pixel-info__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.pixel-info__item {
+  margin-bottom: 15px;
+}
+
+.pixel-info__item:nth-child(2n) {
+  text-align: right;
+}
+
+.pixel-info__item input {
+  width: 60px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.pixel-info__topic {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #484455;
+  opacity: 0.5;
+}
+
+.pixel-info__description {
+  margin: 0;
+  font-size: 15px;
+  line-height: 17px;
+  color: #484455;
+}

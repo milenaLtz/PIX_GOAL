@@ -1,0 +1,43 @@
+.button {
+    padding: 5px 18px;
+    font-size: 12px;
+    line-height: 12px;
+    color: $main-dark-color;
+    background-color: transparent;
+    border: 1px solid #9390A1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(101, 96, 121, 0.25);
+    cursor: pointer;
+}
+
+.button--secondary {
+    color: #ffffff;
+    background-color: #9390A1;
+    border: none;
+}
+
+.button--modal {
+  color: rgba($color: $dark-violet, $alpha: 0.9);
+  background-color: rgba($color: #ffffff, $alpha: 0.5);
+  border: none;
+}
+
+.button--sibe-bar-toggle {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: none;
+    box-shadow: none;
+}
+
+.button--sibe-bar-toggle::before {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 1px;
+    background-color: $main-dark-color;
+    box-shadow: 0 8px 0 0 $main-dark-color, 0 16px 0 0 $main-dark-color;
+    content: "";
+}

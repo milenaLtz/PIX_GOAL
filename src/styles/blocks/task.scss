@@ -1,0 +1,83 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F1EEF5;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.task--checked {
+  background-color: #DBD4E6;
+}
+
+.task__content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.task__title {
+  min-width: 150px;
+  margin: 0;
+}
+
+.task__pixel-count {
+  margin: 0;
+}
+
+.task__button-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3px;
+}
+
+.task__button {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.task__button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  content: "";
+}
+
+.task__button--check::before {
+  background-image: url("../../shared/icons/checkbox-light.svg");
+}
+
+.task__button--change::before {
+  background-image: url("../../shared/icons/pen-dark.svg");
+}
+
+.task__button--delete::before {
+  background-image: url("../../shared/icons/bin.svg");
+  background-size: 45%;
+}
+
+.task__button--checked::before {
+  background-image: url("../../shared/icons/checkbox-dark.svg");
+}
+
+.task__button--no-change::before {
+    background-image: url("../../shared/icons/pen-light.svg");
+}
+
+.task__button::before:hover {
+  opacity: 0.6;
+}

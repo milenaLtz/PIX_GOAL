@@ -1,0 +1,33 @@
+.tasks-block__wrapper {
+  padding: 30px 25px;
+}
+
+.tasks-block__title {
+  margin-bottom: 30px;
+}
+
+.tasks-block__list {
+  margin: 0;
+  padding: 0;
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+.tasks-block__item {
+  margin-bottom: 20px;
+}
+
+.tasks-block__button-wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+.tasks_block__button {
+  margin-right: 20px;
+}
+
+.tasks_block__button--text {
+  padding: 5px 10px;
+  font-size: 12px;
+  text-align: center;
+}

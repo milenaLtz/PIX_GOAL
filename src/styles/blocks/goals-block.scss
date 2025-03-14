@@ -1,0 +1,46 @@
+.goals-block__wrapper {
+  padding: 30px 20px;
+}
+
+.goals-block__intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.goals-block__title {
+  margin: 0;
+}
+
+.goals-block__cards-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 45px;
+  padding: 30px 0;
+}
+
+.goals-block__button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goals-block__button-wrapper--footer {
+  justify-content: right;
+}
+
+.goals-block__button {
+  display: block;
+  margin: 0;
+  padding: 12px 12px;
+  height: 25px;
+}
+
+.goals-block__button:first-child {
+  margin-right: 10px;
+}
+
+.goals-block__button--text {
+  padding: 5px 10px;
+}

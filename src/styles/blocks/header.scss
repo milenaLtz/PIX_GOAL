@@ -1,0 +1,32 @@
+.header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    min-height: 50px;
+    background-color: #F1EEF5;
+    border-bottom: 1px solid #D8D4E0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.header__button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.header__button {
+    margin: 0;
+}
+
+.header__link {
+  width: 25px;
+  height: 25px;
+}
